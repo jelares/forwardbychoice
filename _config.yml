@@ -17,7 +17,7 @@ title: Forward by Choice
 email: jelares@mit.edu
 description: >- # this means to ignore newlines until "baseurl:"
   To move forward in this age requires a choice
-baseurl: "forwardbychoice" # the subpath of your site, e.g. /blog
+baseurl: "/forwardbychoice" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: siderealpers
 github_username:  sidereal
@@ -37,10 +37,6 @@ defaults:
     values:
       layout: "post"
 
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
